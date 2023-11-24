@@ -1,0 +1,50 @@
+@font-face {
+    font-family: Next Sunday;
+    src: url(/img/CaviarDreams.ttf);
+}
+
+*{
+    font-family: Next Sunday;
+}
+
+.formulario{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    width: 700px;
+    margin: auto;
+  
+}
+
+h1{
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 5px;
+    
+}
+
+.blur{
+    box-sizing: border-box;
+    border: none;
+    padding: 5px 5px 5px 5px;
+    background-color: transparent;
+    background-color: rgba(255, 255, 255, 0.162); /* Define a opacidade do fundo dos campos */
+    border: 1px solid #ccc;
+    
+}
+
+Body{
+    background-image: url(img/663022.jpg);
+}
+
+fieldset{
+    padding: 15px;
+}
+
+.form-check{
+    margin-left: 15px;
+   
+}

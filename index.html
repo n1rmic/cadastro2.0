@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro de Cliente</title>
+</head>
+<body>
+
+
+
+  <div class="formulario">
+    <div class="blur">
+      <h1>Cadastro</h1>
+  <form class="row g-3">
+    <div class="col-md-6">
+      <label for="inputEmail4" class="form-label">Nome</label>
+      <input type="text" class="form-control" id="inputEmail4">
+    </div>
+    <div class="col-md-6">
+      <label for="inputPassword4" class="form-label">Sobrenome</label>
+      <input type="text" class="form-control" id="inputPassword4">
+    </div>
+    <div class="col-12">
+      <label for="inputAddress" class="form-label">Endereço</label>
+      <input type="text" class="form-control" id="inputAddress" placeholder="Exemplo: Rua Osvaldo Luis">
+    </div>
+    <div class="col-12">
+      <label for="inputAddress2" class="form-label">Complemento</label>
+      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartamento, quadra, casa">
+    </div>
+    <div class="col-md-6">
+      <label for="inputCity" class="form-label">Cidade</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="col-md-6">
+      <label for="inputState" class="form-label">Estado</label>
+      <select id="inputState" class="form-select">
+        <option selected>Selecione</option>
+        <option>Rio de Janeiro</option>
+        <option>São Paulo</option>
+        <option>Minas Gerais</option>
+        <option>Bahia</option>
+      </select>
+    </div>
+    
+    
+    <fieldset class="row mb-3">
+      <legend class="col-form-label col-sm-2 pt-0">Sexo</legend>
+      <div class="col-sm-10">
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+          <label class="form-check-label" for="gridRadios1">
+           Masculino
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+          <label class="form-check-label" for="gridRadios2">
+           Feminino
+          </label>
+        </div>
+      </div>
+<br>
+<br>
+<br>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+          Confirmo o envio de meus dados, autorizando a utilização dos mesmos, seguindo as normas da LGPD (Lei Geral de Proteção de Dados Pessoais - Nº13.709 de 14 de Agosto de 2018)
+        </label>
+      </div>
+    </fieldset>
+
+
+    
+    <div class="col-12">
+      <button type="submit" class="btn btn-primary">Cadastrar</button>
+    </div>
+  </form>
+    </div>
+  </div>
+</body>
+</html>
